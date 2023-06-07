@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -31,7 +31,10 @@ const ServiceDetailsContent = () => {
               </div>{" "}
               <div className="col-6">
                 <li>Athletic injuries</li>
-                <li>Back and neck pain</li>{" "}
+                <li>
+                  Back and{" "}
+                  <Link href="/conditions-we-treat/neck-pain">neck pain</Link>
+                </li>{" "}
               </div>
               <div className="col-6">
                 <li>Sciatic pain, arthritis pain</li>
@@ -65,67 +68,68 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas knee pain treatments
-              options.
+              about how you can benefit from our dallas K-Laser therapy options.
             </blockquote>
             <h2>How Does K-Laser Therapy Work?</h2>
             <p>
               K-Laser therapy is quickly becoming a popular and effective
-              treatment for pain management in Fort Worth. K-Lasers increase
-              microcirculation to improve oxygenation of damaged soft tissues
-              and joints. Additionally, laser energy stimulates hemoglobin
-              molecules to release oxygen at treatment sites and activates
-              mitochondrial enzymes. The K-Laser's red and infrared light
-              emissions found in the K-Laser rapidly reduce pain and speed
-              healing since damaged tissue cells effortlessly accept laser
-              photons.
+              treatment for{" "}
+              <Link href="/contact-locations/fort-worth">
+                pain management in Fort Worth
+              </Link>
+              . K-Lasers increase microcirculation to improve oxygenation of
+              damaged soft tissues and joints. Additionally, laser energy
+              stimulates hemoglobin molecules to release oxygen at treatment
+              sites and activates mitochondrial enzymes. The K-Laser's red and
+              infrared light emissions found in the K-Laser rapidly reduce pain
+              and speed healing since damaged tissue cells effortlessly accept
+              laser photons.
             </p>
             <h2>Known Biological Effects Of K-Laser Therapy</h2>
             <p>
-              Studies and clinical trials indicate that K-Laser Therapy Farmers
-              Branch is beneficial to tissues and cells. Laser Therapy in the
-              following ways help the body to get rid of pain and enjoy quality
-              of life.
+              Studies and clinical trials indicate that{" "}
+              <Link href="/contact-locations/farmers-branch">
+                K-Laser Therapy Farmers Branch
+              </Link>{" "}
+              is beneficial to tissues and cells. Laser Therapy in the following
+              ways help the body to get rid of pain and enjoy quality of life.
             </p>
             <li>
-              <b>Accelerated Tissue Repair And Cell Growth.</b>
-              Using laser light, cellular reproduction and growth are
-              accelerated deep within the tissue. By increasing the amount of
-              energy available to the cell, the laser light allows the cell to
-              take up nutrients more quickly and eliminate waste products more
-              efficiently. Tendons, ligaments, and muscles repair faster after
-              being exposed to laser light.
+              <b>Accelerated Tissue Repair And Cell Growth.</b> Using laser
+              light, cellular reproduction and growth are accelerated deep
+              within the tissue. By increasing the amount of energy available to
+              the cell, the laser light allows the cell to take up nutrients
+              more quickly and eliminate waste products more efficiently.
+              Tendons, ligaments, and muscles repair faster after being exposed
+              to laser light.
             </li>
             <li>
-              <b>Faster Wound Healing.</b>
-              When laser light is applied to damaged tissue, it stimulates the
-              development of fibroblasts (fibroblasts are the building blocks of
-              collagen, which is important for wound healing). In order to
-              replace damaged tissue or to repair old tissue, collagen is an
-              essential protein. The result is that LT is effective in the
-              treatment of open wounds and burns.
+              <b>Faster Wound Healing.</b> When laser light is applied to
+              damaged tissue, it stimulates the development of fibroblasts
+              (fibroblasts are the building blocks of collagen, which is
+              important for wound healing). In order to replace damaged tissue
+              or to repair old tissue, collagen is an essential protein. The
+              result is that LT is effective in the treatment of open wounds and
+              burns.
             </li>
             <li>
-              <b>Reduced Fibrous Tissue Formation.</b>
-              The application of LT reduces the formation of scar tissue
-              following tissue damage caused by cuts, scratches, burns, or
-              surgical procedures.
+              <b>Reduced Fibrous Tissue Formation.</b> The application of LT
+              reduces the formation of scar tissue following tissue damage
+              caused by cuts, scratches, burns, or surgical procedures.
             </li>
             <li>
-              <b>Anti-Inflammation.</b>
-              In addition to causing vasodilation, laser light therapy
-              stimulates the lymphatic drainage system, which drains swollen
-              areas. Consequently, swelling caused by bruising or inflammation
-              is reduced.
+              <b>Anti-Inflammation.</b> In addition to causing vasodilation,
+              laser light therapy stimulates the lymphatic drainage system,
+              which drains swollen areas. Consequently, swelling caused by
+              bruising or inflammation is reduced.
             </li>
             <li>
               {" "}
-              <b>Anti-Pain (Analgesic).</b>
-              As a result of laser therapy, pain is blocked from being
-              transmitted by nerve cells to the brain and nerve sensitivity is
-              decreased. Additionally, less inflammation results in less edema
-              and less pain. The brain and adrenal glands also produce
-              endorphins and enkephalins to reduce pain.
+              <b>Anti-Pain (Analgesic).</b> As a result of laser therapy, pain
+              is blocked from being transmitted by nerve cells to the brain and
+              nerve sensitivity is decreased. Additionally, less inflammation
+              results in less edema and less pain. The brain and adrenal glands
+              also produce endorphins and enkephalins to reduce pain.
             </li>
             <li>
               <b>Improved Vascular Activity.</b> By using laser light, you can
@@ -134,26 +138,26 @@ const ServiceDetailsContent = () => {
               occurs as a result of accelerated angiogenesis.
             </li>
             <li>
-              <b>Increased metabolic activity.</b>During laser therapy, the body
-              produces a greater amount of enzymes, oxygen and food particles
-              for the blood cells.
+              <b>Increased metabolic activity.</b> During laser therapy, the
+              body produces a greater amount of enzymes, oxygen and food
+              particles for the blood cells.
             </li>
             <li>
-              <b>Improved nerve function.</b>
-              Nerve functions can be slow to recover in damaged tissue,
-              resulting in numbness and impaired function of the limbs. Laser
-              light stimulates nerve cells to reconnect faster, amplifying
-              action potentials and ensuring maximum efficiency.{" "}
+              <b>Improved nerve function.</b> Nerve functions can be slow to
+              recover in damaged tissue, resulting in numbness and impaired
+              function of the limbs. Laser light stimulates nerve cells to
+              reconnect faster, amplifying action potentials and ensuring
+              maximum efficiency.{" "}
             </li>
             <li>
-              <b>Immunoregulation.</b>By stimulating immunoglobulins and
+              <b>Immunoregulation.</b> By stimulating immunoglobulins and
               lymphocytes, laser light directly impacts immunity status. In the
               presence of laser light, chromophones (molecular enzymes) absorb
               the LT. ATP is the major carrier of energy within the cell, as
               well as the source of all chemical reactions.
             </li>
             <li>
-              <b>Trigger Points and Acupuncture Points.</b>The laser therapy
+              <b>Trigger Points and Acupuncture Points.</b> The laser therapy
               provides pain relief for musculoskeletal conditions by stimulating
               trigger points in muscles and acupuncture points non-invasively.
             </li>
@@ -165,28 +169,34 @@ const ServiceDetailsContent = () => {
               practice. A thorough examination is the first step in treating
               your pain. After the assessment, you will receive a treatment plan
               tailored to meet your specific needs. Providing the greatest
-              relief may require a customized treatment plan for K-Laser Therapy
-              Corsicana . A number of services are available at Richardson pain
-              management center, including K Laser Therapy. Maybe there are
-              other services you need, like:
+              relief may require a customized treatment plan for{" "}
+              <Link href="/contact-locations/corsicana">
+                K-Laser Therapy Corsicana
+              </Link>
+              . A number of services are available at{" "}
+              <Link href="/contact-locations/richardson">
+                Richardson pain management
+              </Link>
+              , including K Laser Therapy. Maybe there are other services you
+              need, like:
             </p>
             <li>
               {" "}
-              <b>Manual adjustments:</b> Manual adjustments involve applying pressure to your spine's
-              joints. Using this pressure, the spine can realign and pain can go
-              away.
+              <b>Manual adjustments:</b> Manual adjustments involve applying
+              pressure to your spine's joints. Using this pressure, the spine
+              can realign and pain can go away.
             </li>
             <li>
               {" "}
-              <b>Therapeutic Exercises:</b> In addition to improving range of motion and flexibility,
-              therapeutic exercises can also improve strength.Furthermore, these
-              exercises can prevent further injury.
+              <b>Therapeutic Exercises:</b> In addition to improving range of
+              motion and flexibility, therapeutic exercises can also improve
+              strength. Furthermore, these exercises can prevent further injury.
             </li>
             <li>
-              <b>Trigger point injections:</b> The treatment of muscle spasms involves trigger point injections.
-              It involves injecting a steroid solution into the muscle using a
-              small needle. As a result, the answer can provide relief and
-              relaxation to the muscles.
+              <b>Trigger point injections:</b> The treatment of muscle spasms
+              involves trigger point injections. It involves injecting a steroid
+              solution into the muscle using a small needle. As a result, the
+              answer can provide relief and relaxation to the muscles.
             </li>
           </div>
         </div>

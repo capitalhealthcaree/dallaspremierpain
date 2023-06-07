@@ -97,41 +97,34 @@ const ServiceDetailsContent = () => {
               can cause immediate discomfort or pain. Overuse injuries, for
               instance, may not be apparent until long after the injury has
               occurred. In order to diagnose these injuries, it is often
-              necessary to undergo a physical examination or checkup.
+              necessary to undergo a physical examination or checkup. As a
+              general rule, your doctor is likely to follow the following steps
+              if you believe you have sustained an injury as a result of sports
+              activities. Among them are:
             </p>
-            <p>
-              As a general rule, your doctor is likely to follow the following
-              steps if you believe you have sustained an injury as a result of
-              sports activities. Among them are:
-            </p>
-            <h3>
-              {" "}
-              <li>Physical Examination</li>
-            </h3>
-            <p>
-              Depending on the severity of the injury, your doctor may move the
-              injured joint or body part. As a result, they can see how the area
-              is changing or not changing over time.
-            </p>
-            <h3>
-              {" "}
-              <li>Medical History</li>
-            </h3>
-            <p>
-              During the examination, your doctor will ask about how you were
-              injured and what you did since. Your first visit may also require
-              more information about your medical history.
-            </p>
-            <h3>
-              {" "}
-              <li>Imaging Tests</li>
-            </h3>
-            <p>
-              Your doctor or healthcare provider can view the inside of your
-              body through X-rays, MRIs, CT scans, and ultrasounds. An accurate
-              diagnosis of a sports injury Lancaster can be made by using this
-              information.
-            </p>
+            <li>
+              <b>Medical History:</b> During the examination, your doctor will
+              ask about how you were injured and what you did since. Your first
+              visit may also require more information about your medical
+              history.
+            </li>
+            <li>
+              <b>Physical Examination:</b> Depending on the severity of the
+              injury, your doctor may move the injured joint or body part. As a
+              result, they can see how the area is changing or not changing over
+              time. Depending on the severity of the injury, your doctor may
+              move the injured joint or body part. As a result, they can see how
+              the area is changing or not changing over time.
+            </li>
+            <li>
+              <b>Imaging Tests:</b> Your doctor or healthcare provider can view
+              the inside of your body through X-rays, MRIs, CT scans, and
+              ultrasounds. An accurate diagnosis of a{" "}
+              <Link href="/contact-locations/lancaster">
+                sports injury Lancaster
+              </Link>{" "}
+              can be made by using this information.
+            </li>
           </div>
         </div>
         <div className="row services-details-img">
@@ -174,9 +167,7 @@ const ServiceDetailsContent = () => {
           </div>
         </div>
         <div className="row">
-          <h2 className="pt-3">
-            <h2>Treatment of Sports Injury</h2>
-          </h2>
+          <h2>Which Are The Most Commonly Injured Body Parts?</h2>
           <p>
             You may suffer an injury to any part of your body as a result of
             participating in sports. As a result:
@@ -184,18 +175,24 @@ const ServiceDetailsContent = () => {
           <div className="row">
             <div className="col-6">
               <li>Achilles Tendon</li>
-              <li>Ankle</li>
+              <li>Ankle Pain</li>
             </div>{" "}
             <div className="col-6">
-              <li>Elbow</li>
-              <li>Head</li>{" "}
+              <li>Elbow Pain</li>
+              <li>Head Pain</li>{" "}
             </div>
             <div className="col-6">
-              <li>Knee</li>
+              <li>
+                <Link href="/conditions-we-treat/knee-pain">Knee Pain</Link>
+              </li>
             </div>{" "}
             <div className="col-6">
               {" "}
-              <li>Shoulder</li>
+              <li>
+                <Link href="/conditions-we-treat/shoulder-pain">
+                  Shoulder Pain
+                </Link>
+              </li>
             </div>
             <h2>Preventing Sports Injuries</h2>
             <li>

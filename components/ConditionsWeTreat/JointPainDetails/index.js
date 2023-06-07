@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -23,11 +23,14 @@ const ServiceDetailsContent = () => {
               aggravate the condition.
             </p>
             <p>
-              A person suffering from joint pain North Richland Hills may have
-              difficulty moving their joints and perform basic tasks. The
-              quality of life can be adversely affected by severe joint pain. A
-              person's treatment should not only address the pain but also the
-              activity or function affected.
+              A person suffering from{" "}
+              <Link href="/contact-locations/north-richland-hills">
+                joint pain North Richland Hills
+              </Link>{" "}
+              may have difficulty moving their joints and perform basic tasks.
+              The quality of life can be adversely affected by severe joint
+              pain. A person's treatment should not only address the pain but
+              also the activity or function affected.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
@@ -38,10 +41,14 @@ const ServiceDetailsContent = () => {
             <h2>What Are The Symptoms Of Joint Pain?</h2>
             <p>
               A physician may be required in some cases to treat joint pain. The
-              treatment for joint pain Hillsboro should be sought if you are not
-              aware of the cause and are experiencing other symptoms that are
-              unexplained. Furthermore, you should seek medical attention if you
-              experience the following symptoms:
+              treatment for{" "}
+              <Link href="/contact-locations/hillsboro">
+                joint pain Hillsboro
+              </Link>{" "}
+              should be sought if you are not aware of the cause and are
+              experiencing other symptoms that are unexplained. Furthermore, you
+              should seek medical attention if you experience the following
+              symptoms:
             </p>
             <li>
               A swelling, redness, tenderness, or warmth may be present around
@@ -64,20 +71,21 @@ const ServiceDetailsContent = () => {
           </div>
 
           <div className="row services-details-img">
-          <div className="col-lg-5">
-          <img
-            src="/images/conditions-we-treat/joint-pain/jonit-pain-treatment-dallas.png"
-            alt="Joint Pain"
-          />
-        </div>
+            <div className="col-lg-5">
+              <img
+                src="/images/conditions-we-treat/joint-pain/jonit-pain-treatment-dallas.png"
+                alt="Joint Pain"
+              />
+            </div>
             <div className="col-lg-7">
               <div className="service-details-inner">
                 <h2>Diagnosis of Jont Pain</h2>
                 <p>
-                  A joint pain doctor will likely conduct an evaluation to
-                  determine the cause of joint pain. The doctor will usually
-                  examine the individual's medical history and perform a
-                  physical examination.
+                  A{" "}
+                  <Link href="/find-a-doctor/rao-k-ali">joint pain doctor</Link>{" "}
+                  will likely conduct an evaluation to determine the cause of
+                  joint pain. The doctor will usually examine the individual's
+                  medical history and perform a physical examination.
                 </p>
                 <p>
                   A doctor may inquire as to whether the pain is related to an
@@ -101,12 +109,13 @@ const ServiceDetailsContent = () => {
                 </li>
               </div>
             </div>
-            <h2 className="pt-3">
-              What Is The Treatment For Joint Pain And Swelling?
-            </h2>
+            <h2>What Is The Treatment For Joint Pain And Swelling?</h2>
             <p>
-              The PRICE method can be used to treat acute joint pain Farmers
-              Branch, such as strains and sprains:
+              The PRICE method can be used to treat acute{" "}
+              <Link href="/contact-locations/farmers-branch">
+                joint pain Farmers Branch
+              </Link>
+              , such as strains and sprains:
             </p>
             <li>Prevent further damage or harm to the joint area.</li>
             <li>Avoid activities that cause pain in the joint.</li>
@@ -122,20 +131,23 @@ const ServiceDetailsContent = () => {
               A variety of medications may be beneficial, including steroids,
               paracetamol, and ibuprofen. Your doctor may occasionally inject
               steroids into the joint in order to remove fluid. Symptoms of
-              long-term joint pain Fort Worth and swelling should be addressed
-              by a physician. An exercise plan and appropriate medications will
-              be prescribed by the doctor as part of the treatment plan. As much
-              as possible, you should exercise in a way that is gentle on your
-              joints, such as swimming, aqua aerobics, tai chi, cycling, or
-              walking. An infection may have caused the problem, in which case
-              antibiotics may be needed or surgery may be necessary to drain the
-              area.
+              long-term{" "}
+              <Link href="/contact-locations/fort-worth">
+                joint pain Fort Worth
+              </Link>{" "}
+              and swelling should be addressed by a physician. An exercise plan
+              and appropriate medications will be prescribed by the doctor as
+              part of the treatment plan. As much as possible, you should
+              exercise in a way that is gentle on your joints, such as swimming,
+              aqua aerobics, tai chi, cycling, or walking. An infection may have
+              caused the problem, in which case antibiotics may be needed or
+              surgery may be necessary to drain the area.
             </p>
           </div>
         </div>
       </div>
       <div className="row services-details-img">
-      <div className="col-lg-5">
+        <div className="col-lg-5">
           <img
             src="/images/conditions-we-treat/joint-pain/joint-treatment-dallas.jpg"
             alt="sports injury"
@@ -161,10 +173,12 @@ const ServiceDetailsContent = () => {
             <p>
               Joint pain is often caused by injury. Injury can occur as a result
               of excessive use or effort of joints or an impact that fractures,
-              sprains, or strains the joints. Knee injuries are commonly caused
-              by damage to the anterior cruciate ligament (ACL). Sport-related
-              injuries to the ACL, such as those suffered in soccer, basketball,
-              and football, are more likely to occur in athletes.
+              sprains, or strains the joints.{" "}
+              <Link href="/conditions-we-treat/knee-pain">Knee injuries</Link>{" "}
+              are commonly caused by damage to the anterior cruciate ligament
+              (ACL). Sport-related injuries to the ACL, such as those suffered
+              in soccer, basketball, and football, are more likely to occur in
+              athletes.
             </p>
             <h4>
               {" "}
@@ -217,12 +231,15 @@ const ServiceDetailsContent = () => {
         <p>
           Our goal is to provide our patients with highly qualified, experienced
           physicians who can effectively treat serious symptoms of pain as a
-          one-stop medical clinic. In addition to interventional pain
-          management, physical therapy, and therapy management, the
-          comprehensive patient care program comprises several components. For
-          patients suffering from body pain, Dallas Premier Pain offers a number
-          of treatment options. If you are interested, please contact us to
-          schedule an appointment.
+          one-stop medical clinic. In addition to{" "}
+          <Link href="/interventional-pain-management">
+            interventional pain management
+          </Link>
+          , physical therapy, and therapy management, the comprehensive patient
+          care program comprises several components. For patients suffering from
+          body pain, <Link href="/">Dallas Premier Pain</Link> offers a number
+          of treatment options. If you are interested, please contact us to{" "}
+          <Link href="/appointment">schedule an appointment</Link>.
         </p>
       </div>
     </>

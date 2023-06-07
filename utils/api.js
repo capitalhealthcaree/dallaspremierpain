@@ -1,5 +1,4 @@
 import axios from "axios";
-export const domainURL = "https://dallaspremierpain.com/";
 const BASE_URL = "https://dallas-api.vercel.app/api";
 const LOCAL_URL = "http://localhost:5000";
 const config = {

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -12,31 +12,30 @@ const ServiceDetailsContent = () => {
             />
 
             <h2>
-              What Is Platelet-Rich Plasma (Prp) And What Are Platelet-Rich
+              What Is Platelet-Rich Plasma (PRP) And What Are Platelet-Rich
               Plasma Injections?
             </h2>
             <p>
               An injection of platelet-rich plasma (PRP) accelerates the healing
               of injured tendons, ligaments, muscles, and joints. platelet-rich
               plasma injections enhance musculoskeletal conditions through the
-              use of the body's own healing mechanisms. The preparation of
-              platelet-rich plasma injections involves centrifuging your own
-              blood. Platelets are concentrated in this manner. Activated
-              platelets are administered directly to injured or diseased
-              tissues. A response to this is the release of growth factors,
-              which stimulate and increase the production of reparative cells in
-              your body.
-            </p>
-            <p>
-              Ultrasound imaging facilitates injection guidance. On the left is
-              an illustration of ultrasound guidance while on the right is an
-              illustration of injection.
+              use of the body's own healing mechanisms. The preparation of{" "}
+              <Link href="/contact-locations/fort-worth">
+                platelet-rich plasma injections fort worth
+              </Link>{" "}
+              involves centrifuging your own blood. Platelets are concentrated
+              in this manner. Activated platelets are administered directly to
+              injured or diseased tissues. A response to this is the release of
+              growth factors, which stimulate and increase the production of
+              reparative cells in your body. Ultrasound imaging facilitates
+              injection guidance. On the left is an illustration of ultrasound
+              guidance while on the right is an illustration of injection.
             </p>
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas sports injury treatments
-              options.
+              about how you can benefit from our dallas platelet-rich plasma
+              (PRP) treatments options.
             </blockquote>
             <h2>Conditions Treated with PRP </h2>
             <p>
@@ -48,8 +47,12 @@ const ServiceDetailsContent = () => {
               <li>Skin Rejuvenation</li>
             </h3>
             <p>
-              Past studies have shown that platelet-rich plasma injections can
-              reduce wrinkles and other signs of aging, but they don't prove it.
+              Past studies have shown that{" "}
+              <Link href="/contact-locations/hillsboro">
+                platelet-rich plasma injections hillsboro
+              </Link>{" "}
+              can reduce wrinkles and other signs of aging, but they don't prove
+              it.
             </p>
             <h3>
               <li>Post-surgical Healing</li>
@@ -75,19 +78,25 @@ const ServiceDetailsContent = () => {
             </h3>
             <p>
               Several musculoskeletal conditions and injuries may be treated
-              with platelet-rich plasma injections. By including PRP shots in a
-              treatment plan, the healing process can be stimulated, pain can be
-              decreased, and patients will be able to return to their normal
-              activities more quickly. An example of this would be in chronic
-              tendon injuries, such as tennis elbow and jumper's knee.
+              with{" "}
+              <Link href="/contact-locations/lancaster">
+                platelet-rich plasma injections lancaster
+              </Link>
+              . By including PRP shots in a treatment plan, the healing process
+              can be stimulated, pain can be decreased, and patients will be
+              able to return to their normal activities more quickly. An example
+              of this would be in chronic tendon injuries, such as tennis elbow
+              and jumper's knee.
             </p>
             <h3>
               <li>Hair Loss</li>
             </h3>
             <p>
-              Platelet-rich plasma injections prevent male pattern baldness and
-              promote hair growth. Following a hair transplant, PRP can also
-              stimulate hair growth.
+              <Link href="/contact-locations/cleburne">
+                Platelet-rich plasma injections cleburne
+              </Link>{" "}
+              prevent male pattern baldness and promote hair growth. Following a
+              hair transplant, PRP can also stimulate hair growth.
             </p>
             <h2>How Does PRP Work?</h2>
             <p>

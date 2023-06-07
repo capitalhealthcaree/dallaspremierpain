@@ -73,7 +73,11 @@ const ServiceDetailsContent = () => {
                 </li>
                 <p>
                   The symptoms of headache may be misconstrued as those of other
-                  medical conditions. Consult your physician for a diagnosis.
+                  medical conditions.{" "}
+                  <Link href="/find-a-doctor/rao-k-ali">
+                    Consult your physician
+                  </Link>{" "}
+                  for a diagnosis.
                 </p>
               </div>
             </div>
@@ -116,42 +120,45 @@ const ServiceDetailsContent = () => {
               too frequently. A patient with a primary headache disorder, such
               as migraine, may experience headaches due to the overuse of
               medications. This may result in migraine episodes occurring more
-              frequently and becoming more severe.
+              frequently and becoming more severe. Instead of relieving
+              headaches, medications increase their intensity and frequency.
+              Medication containing opiates, such as codeine or morphine, is
+              frequently associated with MOH. A headache may also be accompanied
+              by the following symptoms:
             </p>
-            <p>
-              Instead of relieving headaches, medications increase their
-              intensity and frequency. Medication containing opiates, such as
-              codeine or morphine, is frequently associated with MOH. A headache
-              may also be accompanied by the following symptoms:
-            </p>
-            <li>Neck pain</li>
+            <li>
+              <Link href="/conditions-we-treat/neck-pain">Neck pain</Link>
+            </li>
             <li>A feeling of nasal congestion</li>
             <li>Restlessness</li>
             <li>Reduced sleep quality</li>
+            <h4 className="pt-3"></h4>
             <h4>
               {" "}
               <li>Cluster Headache</li>
             </h4>
             <p>
-              Usually, headaches Waxahachie last between 15 minutes and three
-              hours and occur between one and eight times per day. For 4-12
-              weeks, cluster headaches are common, and then disappear. In
-              general, they occur every day at the same time.
-            </p>
-            <p>
-              A person may not experience symptoms during the period between
-              clusters. Depending on the severity of the illness, these periods
-              of remission may last as long as several years. An individual
-              suffering from cluster headaches Hillsboro experiences brief and
-              severe pain around or behind one eye on one side of their face. A
-              person may also experience pain in other areas of their face.
-              Symptoms of cluster headaches Lancaster include:
+              Usually,{" "}
+              <Link href="/contact-locations/waxahachie">
+                headaches Waxahachie
+              </Link>{" "}
+              last between 15 minutes and three hours and occur between one and
+              eight times per day. For 4-12 weeks, cluster headaches are common,
+              and then disappear. In general, they occur every day at the same
+              time. A person may not experience symptoms during the period
+              between clusters. Depending on the severity of the illness, these
+              periods of remission may last as long as several years. An
+              individual suffering from cluster headaches Hillsboro experiences
+              brief and severe pain around or behind one eye on one side of
+              their face. A person may also experience pain in other areas of
+              their face. Symptoms of cluster headaches Lancaster include:
             </p>
             <li>A red or watery eye</li>
             <li>Forehead sweating</li>
             <li>Nose congestion or runny nose</li>
             <li>Eyelids that droop or swell</li>
             <li>The pupil of one eye is smaller (constricted)</li>
+            <h4 className="pt-3"></h4>
             <h4>
               {" "}
               <li>Migraine</li>
@@ -159,12 +166,10 @@ const ServiceDetailsContent = () => {
             <p>
               Globally, migraines rank third and seventh in terms of prevalence
               and disability. Approximately 16 percent of Americans are affected
-              by the disease, according to a survey conducted in 2021.
-            </p>
-            <p>
-              Migraine headaches may be accompanied by pulsating or throbbing
-              pain. As a result, it may occur on either side of the head. During
-              an episode, a person may also experience the following symptoms:
+              by the disease, according to a survey conducted in 2021. Migraine
+              headaches may be accompanied by pulsating or throbbing pain. As a
+              result, it may occur on either side of the head. During an
+              episode, a person may also experience the following symptoms:
             </p>
             <li>lightheadedness</li>
             <li>Nausea, possibly with vomiting</li>
@@ -184,9 +189,9 @@ const ServiceDetailsContent = () => {
               A sudden, severe headache is often described as the most severe
               headache of a person's lifeTrusted Source. Their intensity peaks
               between 30 seconds and a minute after they begin and gradually
-              fades over a few hours. Thunderclap headaches are secondary
-              headaches Decatur that may indicate life-threatening conditions,
-              including:
+              fades over a few hours. Thunderclap headaches are secondary{" "}
+              <Link href="/contact-locations/decatur">headaches Decatur</Link>{" "}
+              that may indicate life-threatening conditions, including:
             </p>
             <li>An aneurysm</li>
             <li>Pituitary apoplexy</li>
@@ -198,51 +203,20 @@ const ServiceDetailsContent = () => {
               You should seek medical attention if you experience a sudden,
               severe headache.
             </p>
-          </div>
-        </div>
-      </div>
-      <div className="row services-details-img">
-        <div className="col-lg-5">
-          <img
-            src="/images/conditions-we-treat/headaches/headaches-treatment-dallas.jpg"
-            alt="headaches treatment dallas"
-          />
-        </div>
-        <div className="col-lg-7">
-          <div className="service-details-inner">
             <h2>What Tests Will Be Done To Diagnose Headaches?</h2>
             <p>
               A scan or other imaging test may be helpful when ruling out other
               diseases, but they cannot diagnose migraines, cluster headaches,
               or tension headaches. Nevertheless, if your physician suspects you
               have another medical condition causing your headaches, he or she
-              may order a variety of imaging tests to determine the cause.
-            </p>
-            <p>
-              CT scans or MRIs can help determine if your headaches are related
-              to a neurological condition. During both of these tests,
+              may order a variety of imaging tests to determine the cause. CT
+              scans or MRIs can help determine if your headaches are related to
+              a neurological condition. During both of these tests,
               cross-sectional images of your brain are produced that show
               abnormal or problematic areas.
             </p>
           </div>
         </div>
-      </div>
-      <div className="row">
-        <h2>Premier Pain Centers</h2>
-        <p>
-          Premier Pain Centers in Dallas provides high-quality medical care to
-          patients suffering from severe muscle pain. Comfort and peace are the
-          objectives of the organization. Providing highly qualified,
-          experienced physicians to our patients is a key component of our
-          one-stop medical clinic. Among the services included in our
-          comprehensive patient care program are interventional pain management,
-          physical therapy, and therapy management.
-        </p>
-        <p>
-          Dr Ali Pain Management specializes in treating knee conditions such as
-          inner knee pain caused by running. We would be happy to schedule an
-          appointment with you if you are interested.
-        </p>
       </div>
     </>
   );

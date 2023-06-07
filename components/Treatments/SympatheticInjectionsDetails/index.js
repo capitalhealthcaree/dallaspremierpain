@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -16,11 +16,14 @@ const ServiceDetailsContent = () => {
               Nerve pain may include dull or burning sensations that are
               difficult to pinpoint. Although it is possible to live with this
               pain for the rest of your life, you should not, since treatment is
-              available. Using sympathetic injections, it is possible to
-              diagnose or treat pain involving the sympathetic nerves. From your
-              spine, these nerves extend to your entire body and control
-              involuntary body functions such as blood pressure, body
-              temperature, blood flow, etc.
+              available. Using{" "}
+              <Link href="/contact-locations/fort-worth">
+                sympathetic injections fort worth
+              </Link>
+              , it is possible to diagnose or treat pain involving the
+              sympathetic nerves. From your spine, these nerves extend to your
+              entire body and control involuntary body functions such as blood
+              pressure, body temperature, blood flow, etc.
             </p>
             <p>
               We understand how frustrating it can be to suffer from chronic
@@ -32,8 +35,8 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas knee pain treatments
-              options.
+              about how you can benefit from our dallas sympathetic injections
+              treatments options.
             </blockquote>
             <h2>Preparation For A Sympathetic Nerve Block</h2>
             <li>
@@ -91,9 +94,10 @@ const ServiceDetailsContent = () => {
               A lumbar sympathetic block may target a ganglion near the lower
               spine to relieve pain in the lower body. You will lie face down on
               the table during the X-ray procedure. Low-dose sedatives like
-              diazepam or midazolam are good to use. Lower back skin is numb
-              with a local anesthetic injection. As long as you are awake, you
-              can provide feedback to your physician.
+              diazepam or midazolam are good to use.{" "}
+              <Link href="/conditions-we-treat/back-pain">Lower back</Link> skin
+              is numb with a local anesthetic injection. As long as you are
+              awake, you can provide feedback to your physician.
             </li>
             <li>
               Under fluoroscopic guidance (x-ray), the doctor will insert a
@@ -110,9 +114,13 @@ const ServiceDetailsContent = () => {
             <h2>Outcome</h2>
             <p>
               This procedure provides pain relief and many patients benefit from
-              it. The patient requires several lumbar sympathetic blocks to
-              achieve long-term results. In accordance with the treatment
-              results, the procedure timing will be determined.
+              it. The patient requires several{" "}
+              <Link href="/treatments/lumbar-sympathetic-injections">
+                lumbar sympathetic blocks
+              </Link>{" "}
+              to achieve long-term results. In accordance with the{" "}
+              <Link href="/treatments">treatments</Link> results, the procedure
+              timing will be determined.
             </p>
           </div>
         </div>

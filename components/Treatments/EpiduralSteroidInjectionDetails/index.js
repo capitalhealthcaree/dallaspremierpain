@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -10,12 +10,13 @@ const ServiceDetailsContent = () => {
               src="/images/treatments/epidural-steroid-injection.jpg"
               alt="epidural steroid injection"
             />
-            <h2>Causes and Treatment of Shoulder Pain</h2>
+            <h2>Epidural Steroid Injections for Pain Management</h2>
             <p>
               As a result of inflamed spinal nerves caused by spinal stenosis or
               disc herniation, epidural steroids may provide pain relief in the
-              neck, arms, shoulders, back, and legs. Between the spinal cord and
-              its protective sac is an epidural space containing a medical
+              neck, arms, shoulders, back, and legs. Between the{" "}
+              <Link href="/treatments/sympathetic-injections">spinal cord</Link>{" "}
+              and its protective sac is an epidural space containing a medical
               solution. Pain may persist for several days or even years before
               relief. To be able to resume physical therapy and return to normal
               activities, it is essential to reduce pain.
@@ -45,15 +46,15 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our Dallas shoulder pain treatments
-              options.
+              about how you can benefit from our Dallas epidural steroid
+              injections treatments options.
             </blockquote>
             <h2>Procedure</h2>
             <p>
               The doctor will ask you to sign a consent form after examining you
-              and explaining the risks and benefits of the procedure.Once you
+              and explaining the risks and benefits of the procedure. Once you
               are on the X-ray table, you will be assisted to the position of
-              lying on your stomach as comfortably as possible.A blood pressure
+              lying on your stomach as comfortably as possible. A blood pressure
               monitor and a heart rate monitor will be installed.
             </p>
             <li>
@@ -94,19 +95,17 @@ const ServiceDetailsContent = () => {
               discharge. After your doctor has approved your discharge, you may
               drive yourself home with the assistance of your driver.
             </li>
+            <h2>Expected Outcomes</h2>
+            <p>
+              There are many patients who benefit from ESI in terms of pain
+              relief. The patient may require one or two additional injections,
+              usually at 1-4 week intervals, to achieve full pain relief. The
+              pain relief may last for weeks or years. As a complement to
+              physical therapy and/or an exercise program at home, injections
+              can strengthen the back muscles. The purpose of this procedure is
+              to prevent future episodes of pain.
+            </p>
           </div>
-          <h2>Expected Outcomes</h2>
-          <p>
-            There are many patients who benefit from ESI in terms of pain
-            relief. The patient may require one or two additional injections,
-            usually at 1-4 week intervals, to achieve full pain relief. The pain
-            relief may last for weeks or years.
-          </p>
-          <p>
-            As a complement to physical therapy and/or an exercise program at
-            home, injections can strengthen the back muscles. The purpose of
-            this procedure is to prevent future episodes of pain.
-          </p>
         </div>
       </div>
     </>

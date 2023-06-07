@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -13,10 +13,13 @@ const ServiceDetailsContent = () => {
 
             <h2>Facet Joint Injections</h2>
             <p>
-              Facet joint injections are minimally invasive procedures that numb
-              facet joints by injecting local anesthetic and/or medication. The
-              needle is guided into the facet joint using fluoroscopy, a
-              real-time radiographic imaging technique, or computed tomography.
+              <Link href="/contact-locations/corsicana">
+                Facet joint injections Corsicana
+              </Link>{" "}
+              are minimally invasive procedures that numb facet joints by
+              injecting local anesthetic and/or medication. The needle is guided
+              into the facet joint using fluoroscopy, a real-time radiographic
+              imaging technique, or computed tomography.
             </p>
             <p>
               An injection of a facet joint under fluoroscopy (live X-ray) is
@@ -27,8 +30,8 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas knee pain treatments
-              options.
+              about how you can benefit from our dallas facet joint injections
+              treatments options.
             </blockquote>
             <h2>Preparation Facet Injections</h2>
             <p>
@@ -86,9 +89,13 @@ const ServiceDetailsContent = () => {
           </div>
           <h2>Procedure</h2>
           <p>
-            A facet joint injection is a minimally invasive procedure performed
-            as an outpatient within a few hours. Most procedures take no more
-            than fifteen minutes to complete.
+            A{" "}
+            <Link href="/contact-locations/fort-worth">
+              facet joint injection fort worth
+            </Link>{" "}
+            is a minimally invasive procedure performed as an outpatient within
+            a few hours. Most procedures take no more than fifteen minutes to
+            complete.
           </p>
           <li>
             A local anesthetic is usually administered to patients, but in
@@ -118,7 +125,8 @@ const ServiceDetailsContent = () => {
           <li>
             In most cases, the patient is escorted home by an escort two hours
             after the procedure. Under no circumstances is a patient permitted
-            to drive home after treatment two hours later.
+            to drive home after <Link href="/treatments">treatment</Link> two
+            hours later.
           </li>
           <li>
             After-surgery care Within 15-20 minutes following the procedure, the
