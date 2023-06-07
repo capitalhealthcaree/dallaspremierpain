@@ -29,7 +29,7 @@ const Treatments = {
       name: " Hip Joint Injections",
     },
     {
-      href: "/treatments//lumbar-sympathetic-injections",
+      href: "/treatments/lumbar-sympathetic-injections",
       name: " Lumbar Sympathetic Injections",
     },
     {
@@ -45,7 +45,7 @@ const Treatments = {
       name: " Spinal Cord Stimulation",
     },
     {
-      href: "/treatments//mild-procedure",
+      href: "/treatments/mild-procedure",
       name: "Mild Procedure",
     },
     {
@@ -81,9 +81,9 @@ const ConditionsWeTreatLeftSide = () => {
         <div className="blog-details-category ps-3">
           <h3>{conditionsWeTreat.heaging}</h3>
           <ul>
-            {conditionsWeTreat.treatment.map((item) => {
+            {conditionsWeTreat.treatment.map((item, i) => {
               return (
-                <li>
+                <li key={i}>
                   <Link href={item.url}>{item.name}</Link>
                 </li>
               );

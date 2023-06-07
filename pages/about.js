@@ -1,7 +1,6 @@
 import React from "react";
 import Head from "next/head";
 import { domainURL } from "../utils/api";
-
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import OurServices from "../components/Home/OurServices";
