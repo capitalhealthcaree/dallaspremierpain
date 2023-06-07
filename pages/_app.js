@@ -7,6 +7,7 @@ import "../node_modules/react-modal-video/css/modal-video.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "swiper/css";
 import "swiper/css/bundle";
+import Head from "next/head";
 
 // Global Style
 import "../styles/style.css";
@@ -18,9 +19,14 @@ import Layout from "../components/_App/Layout";
 
 const MyApp = ({ Component, pageProps }) => {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <>
+      <Head>
+        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}`} />
+      </Head>
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    </>
   );
 };
 export default MyApp;

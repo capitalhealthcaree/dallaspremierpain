@@ -13,7 +13,6 @@ const Layout = ({ children }) => {
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
         />
-        <link rel="canonical" href={`${process.env.NEXT_PUBLIC_URL_DOMAIN}`} />
         <meta
           name="description"
           content="At Dallas Premier Pain, we offer top quality pain management using some of the least invasive, most effective pain procedures possible. Schedule an Appointment!"
