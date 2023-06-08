@@ -29,7 +29,7 @@ const Treatments = {
       name: " Hip Joint Injections",
     },
     {
-      href: "/treatments//lumbar-sympathetic-injections",
+      href: "/treatments/lumbar-sympathetic-injections",
       name: " Lumbar Sympathetic Injections",
     },
     {
@@ -45,7 +45,7 @@ const Treatments = {
       name: " Spinal Cord Stimulation",
     },
     {
-      href: "/treatments//mild-procedure",
+      href: "/treatments/mild-procedure",
       name: "Mild Procedure",
     },
     {

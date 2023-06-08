@@ -6,7 +6,7 @@ const treatments = [
     name: " Hip Joint Injections",
   },
   {
-    href: "/treatments//lumbar-sympathetic-injections",
+    href: "/treatments/lumbar-sympathetic-injections",
     name: " Lumbar Sympathetic Injections",
   },
   {

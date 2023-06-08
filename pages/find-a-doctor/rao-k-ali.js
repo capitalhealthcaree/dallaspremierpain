@@ -104,7 +104,7 @@ const DoctorDetails = () => {
                       He is an expert in interventional pain procedures
                       including Epidurals, Nerve Blocks, Radio-frequency
                       Ablation,{" "}
-                      <Link href="/treatments//joint-injections">
+                      <Link href="/treatments/joint-injections">
                         Joint Injections
                       </Link>
                       , Kyphoplasty, Discectomy,
