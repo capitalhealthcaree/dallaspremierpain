@@ -25,40 +25,13 @@ const Treatments = {
   heaging: "Treatments",
   treatment: [
     {
-      href: "/treatments/hip-joint-injections",
-      name: " Hip Joint Injections",
-    },
-    {
-      href: "/treatments/lumbar-sympathetic-injections",
-      name: " Lumbar Sympathetic Injections",
-    },
-    {
-      href: "/treatments/neuroma-injection",
-      name: " Neuroma Injection",
-    },
-    {
-      href: "/treatments/steroid-joint-injections",
-      name: " Steroid Joint Injections",
-    },
-    {
-      href: "/treatments/spinal-cord-stimulation",
-      name: " Spinal Cord Stimulation",
-    },
-    {
-      href: "/treatments/mild-procedure",
-      name: "Mild Procedure",
-    },
-    {
-      href: "/treatments/k-laser-therapy",
-      name: " K-Laser Therapy",
-    },
-    {
-      href: "/treatments/platelet-rich-plasma",
-      name: " Platelet Rich Plasma",
-    },
-    {
       href: "/treatments/disc-regenerative-therapy",
       name: " Disc Regenerative Therapy",
+    },
+
+    {
+      href: "/treatments/epidural-nerve-block",
+      name: " Epidural Nerve Block",
     },
     {
       href: "/treatments/epidural-steroid-injection",
@@ -69,8 +42,61 @@ const Treatments = {
       name: " Facet Joint Injection",
     },
     {
+      href: "/treatments/hip-joint-injections",
+      name: " Hip Joint Injections",
+    },
+    {
+      href: "/treatments/joint-injections",
+      name: "Joint Injections",
+    },
+    {
+      href: "/treatments/k-laser-therapy",
+      name: " K-Laser Therapy",
+    },
+    {
+      href: "/treatments/lumbar-percutaneous-discectomy",
+      name: " Percutaneous Lumbar Discectomy",
+    },
+    {
+      href: "/treatments/lumbar-sympathetic-injections",
+      name: " Lumbar Sympathetic Injections",
+    },
+    {
+      href: "/treatments/mild-procedure",
+      name: "Mild Procedure",
+    },
+    {
+      href: "/treatments/neuroma-injection",
+      name: " Neuroma Injection",
+    },
+    {
+      href: "/treatments/platelet-rich-plasma",
+      name: " Platelet Rich Plasma",
+    },
+    {
+      href: "/treatments/pronox",
+      name: " Pronox Nitrous Oxide System",
+    },
+    {
+      href: "/treatments/si-joint-injections",
+      name: " SI Joint Injections",
+    },
+    {
+      href: "/treatments/spinal-cord-stimulation",
+      name: " Spinal Cord Stimulation",
+    },
+    {
+      href: "/treatments/steroid-joint-injections",
+      name: " Steroid Joint Injections",
+    },
+
+    {
       href: "/treatments/sympathetic-injections",
       name: " Sympathetic Injections",
+    },
+    {
+      href: "/treatments/trigger-point-injections",
+      name: "Trigger Point Injections",
     },
   ],
 };
