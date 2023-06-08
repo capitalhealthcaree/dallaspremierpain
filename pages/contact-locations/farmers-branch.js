@@ -1,5 +1,4 @@
 import React from "react";
-import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import ContactInfo from "../../components/Contact/ContactInfo";
@@ -9,8 +8,6 @@ import AppointmentForm from "../../components/Appointment/AppointmentForm";
 const Contact = () => {
   return (
     <>
-      <TopHeader />
-
       <Navbar />
 
       <PageBanner
