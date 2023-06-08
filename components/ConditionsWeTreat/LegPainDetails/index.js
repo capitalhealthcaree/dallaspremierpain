@@ -133,11 +133,10 @@ const ServiceDetailsContent = () => {
                 </li>
                 <li>
                   According to the cause of the pain, your{" "}
-                  <Link href="/blog/leg-pain/when-to-visit-a-doctor-for-leg-pain">
-                    leg pain doctor
-                  </Link>{" "}
-                  may recommend a physiotherapist, podiatrist, or another health
-                  professional to treat the condition.
+                  {/* <Link href="/blog/leg-pain/when-to-visit-a-doctor-for-leg-pain"> */}
+                  leg pain doctor
+                  {/* </Link> */} may recommend a physiotherapist, podiatrist,
+                  or another health professional to treat the condition.
                 </li>
                 <li>
                   Some individuals may require antibiotics or anti-inflammatory
