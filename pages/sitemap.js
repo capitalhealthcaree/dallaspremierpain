@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 import Navbar from "../components/_App/Navbar";
+import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 
 const locations = [
@@ -192,6 +193,13 @@ const DoctorDetails = () => {
         <meta name="format-detection" content="telephone=no" />
       </Head>
       <Navbar />
+      <PageBanner
+        pageTitle="Site Map"
+        homePageUrl="/"
+        homePageText="Home"
+        activePageText="sitemap"
+        bgImage="/images/sitemap.jpg"
+      />
 
       <div className="container p-5">
         <div className="row">
