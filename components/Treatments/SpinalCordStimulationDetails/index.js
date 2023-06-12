@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -32,8 +32,8 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas neck pain treatments
-              options.
+              about how you can benefit from our dallas spinal cord stimulation
+              treatments options.
             </blockquote>
             <h2>Procedure</h2>
             <li>One to two hours are generally required for surgery.</li>
@@ -89,15 +89,17 @@ const ServiceDetailsContent = () => {
             A number of advantages can be derived from spinal cord stimulation.
           </p>
           <li>
-            Aside from treating pain that has not responded to other treatments,
-            it can also be used to treat chronic pain. Using spinal cord
-            stimulation as a treatment alternative may be a viable option in
-            cases where other treatments have failed.
+            Aside from treating pain that has not responded to other{" "}
+            <Link href="/treatments">treatments</Link>, it can also be used to
+            treat chronic pain. Using spinal cord stimulation as a treatment
+            alternative may be a viable option in cases where other treatments
+            have failed.
           </li>
           <li>
             Several types of pain are treated with the drug. During spinal cord
-            stimulation, chest pain, nerve pain, and back pain related to the
-            heart are treated.
+            stimulation, chest pain, nerve pain, and{" "}
+            <Link href="/conditions-we-treat/back-pain">back pain</Link> related
+            to the heart are treated.
           </li>
           <li>
             Therefore, people may be able to use fewer stronger pain

@@ -643,6 +643,26 @@ const Navbar = () => {
                           News
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/arthritis-pain"
+                          className={`nav-link ${
+                            currentPath == "/arthritis-pain" && "active"
+                          }`}
+                        >
+                          Arthritis Pain
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link
+                          href="/sciatica-pain"
+                          className={`nav-link ${
+                            currentPath == "/sciatica-pain" && "active"
+                          }`}
+                        >
+                          Sciatica Pain
+                        </Link>
+                      </li>
                       <li>
                         <Link
                           href="/interventional-pain-management"

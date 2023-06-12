@@ -6,8 +6,16 @@ const treatments = [
     name: " Hip Joint Injections",
   },
   {
+    href: "/treatments/si-joint-injections",
+    name: " SI Joint Injections",
+  },
+  {
     href: "/treatments/lumbar-sympathetic-injections",
     name: " Lumbar Sympathetic Injections",
+  },
+  {
+    href: "/treatments/trigger-point-injections",
+    name: " Trigger Point Injections",
   },
   {
     href: "/treatments/neuroma-injection",
@@ -20,6 +28,10 @@ const treatments = [
   {
     href: "/treatments/spinal-cord-stimulation",
     name: " Spinal Cord Stimulation",
+  },
+  {
+    href: "/treatments/epidural-nerve-block",
+    name: " Epidural Nerve Block",
   },
   {
     href: "/treatments/k-laser-therapy",

@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 const ServiceDetailsContent = () => {
   return (
     <>
@@ -7,8 +7,8 @@ const ServiceDetailsContent = () => {
         <div className="container">
           <div className="services-details-img">
             <img
-              src="/images/treatments/steroid-joint-injection.jpg"
-              alt="Steroid Joint Injection"
+              src="/images/mild-procedure.png"
+              alt="mild procedure"
             />
 
             <h2>MILD Procedure Facts & Information</h2>
@@ -18,13 +18,17 @@ const ServiceDetailsContent = () => {
               Spinal Stenosis (LSS). MILD provides significant pain relief for
               patients suffering from LSS. The study showed that 79 percent of
               patients reduced their pain and improved their mobility. Using
-              MILD treatment in an outpatient setting, our board-certified pain
-              specialists diagnose and treat LSS-related pain accurately.
+              MILD treatment in an outpatient setting, our board-certified{" "}
+              <Link href="/find-a-doctor/rao-k-ali">pain specialists</Link>{" "}
+              diagnose and treat LSS-related pain accurately.
             </p>
             <h2>Benefits of MILD Procedure:</h2>
             <p>
-              Lumbar spinal stenosis patients should have a mild procedure North
-              Richland Hills like this. Several factors may help patients:
+              Lumbar spinal stenosis patients should have a{" "}
+              <Link href="/contact-locations/north-richland-hills">
+                mild procedure North Richland Hills
+              </Link>{" "}
+              like this. Several factors may help patients:
             </p>
             <li>The day after surgery, you can go home</li>
             <li>Relieving pain</li>
@@ -36,8 +40,8 @@ const ServiceDetailsContent = () => {
             <blockquote>
               <i className="icofont-quote-left"></i>
               Please contact us online or call us at 469-562-4188 to learn more
-              about how you can benefit from our dallas knee pain treatments
-              options.
+              about how you can benefit from our dallas mild procedure
+              treatments options.
             </blockquote>
             <h2>Spinal Stenosis: How Does It Happen?</h2>
             <p>
@@ -60,17 +64,19 @@ const ServiceDetailsContent = () => {
               <div className="col-6">
                 <li>Diseases of the bones</li>
                 <p>The following symptoms are common: </p>
-              <li>Back pain</li>
-              <li>
-                Sciatica is a burning feeling going down the buttocks and into
-                the legs.
-              </li>
-              <li>Numbness and tingling in legs</li>
-              <li>Foot numbness</li>
-              <li>
-                An abnormal foot drop occurs when the foot is weak and slaps
-                down.
-              </li>
+                <li>
+                  <Link href="/conditions-we-treat/back-pain">Back pain</Link>
+                </li>
+                <li>
+                  <Link href="/sciatica-pain">Sciatica </Link>is a burning
+                  feeling going down the buttocks and into the legs.
+                </li>
+                <li>Numbness and tingling in legs</li>
+                <li>Foot numbness</li>
+                <li>
+                  An abnormal foot drop occurs when the foot is weak and slaps
+                  down.
+                </li>
               </div>{" "}
             </div>
           </div>
