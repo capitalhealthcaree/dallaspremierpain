@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-
 import api from "../../utils/api";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";

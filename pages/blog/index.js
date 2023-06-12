@@ -1,14 +1,10 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
-
 import api from "../../utils/api";
-import TopHeader from "../../components/_App/TopHeader";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
-
-const SSR_ENDPOINT = process.env.SSR_API_URL;
 
 const Blog = ({ item }) => {
   return (
@@ -23,7 +19,6 @@ const Blog = ({ item }) => {
           content="Discover effective pain management Treatments, expert advice, and helpful tips to find relief and improve your quality of life. Explore now"
         />
       </Head>
-      <TopHeader />
 
       <Navbar />
 
