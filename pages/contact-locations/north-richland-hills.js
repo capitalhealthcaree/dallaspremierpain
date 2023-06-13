@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in North Richland Hills"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="North Richland Hills"
+        activePageText="north-richland-hills"
         bgImage="/images/location.jpg"
       />
 

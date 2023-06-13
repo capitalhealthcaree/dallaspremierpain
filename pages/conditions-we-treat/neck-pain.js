@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Neck Pain Treatments In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="neck pain"
+        activePageText="neck-pain"
         bgImage="/images/conditions-we-treat/neck-pain/neck.jpg"
       />
 

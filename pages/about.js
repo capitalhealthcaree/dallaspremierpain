@@ -32,7 +32,7 @@ const About = () => {
         pageTitle="About Us"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="About"
+        activePageText="about"
         bgImage="/images/page-banner1.jpg"
       />
 

@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Hip Joint Injections in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Hip Joint Injections"
+        activePageText="hip-joint-injections"
         bgImage="/images/page-banner2.jpg"
       />
 

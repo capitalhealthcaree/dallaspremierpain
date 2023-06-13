@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Sports Injury Treatment in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="sports injury"
+        activePageText="sports-injury"
         bgImage="/images/conditions-we-treat/sports-injury/sports-injury-treatment-dallas.jpg"
       />
 

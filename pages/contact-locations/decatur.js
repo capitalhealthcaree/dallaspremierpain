@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Decatur"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Decatur"
+        activePageText="decatur"
         bgImage="/images/location.jpg"
       />
 

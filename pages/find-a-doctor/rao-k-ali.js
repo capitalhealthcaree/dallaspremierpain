@@ -9,14 +9,66 @@ import Footer from "../../components/_App/Footer";
 const conditionsWeTreat = {
   heaging: "Conditions We Treat",
   treatment: [
+    {
+      url: "/conditions-we-treat/car-accident-injury",
+      name: "Car Accident Injury",
+    },
     { url: "/conditions-we-treat/shoulder-pain", name: "Shoulder Pain" },
     { url: "/conditions-we-treat/sports-injury", name: "Sports Injury" },
     { url: "/conditions-we-treat/headaches", name: "Headaches" },
     { url: "/conditions-we-treat/back-pain", name: "Back Pain" },
     { url: "/conditions-we-treat/neck-pain", name: "Neck Pain" },
     { url: "/conditions-we-treat/knee-pain", name: "Knee Pain" },
+    { url: "/conditions-we-treat/wrist-pain", name: "Wrist Pain" },
     { url: "/conditions-we-treat/joint-pain", name: "Joint Pain" },
+    { url: "/conditions-we-treat/foot-pain", name: "Foot Pain" },
     { url: "/conditions-we-treat/leg-pain", name: "Leg Pain" },
+    { url: "/conditions-we-treat/hip-pain", name: "Hip Pain" },
+  ],
+};
+const locations = {
+  heaging: "Locations",
+  location: [
+    {
+      href: "/contact-locations/richardson",
+      name: " Richardson",
+    },
+    {
+      href: "/contact-locations/north-richland-hills",
+      name: " North Richland Hills",
+    },
+    {
+      href: "/contact-locations/waxahachie",
+      name: " Waxahachie",
+    },
+    {
+      href: "/contact-locations/fort-worth",
+      name: " Fort Worth",
+    },
+    {
+      href: "/contact-locations/hillsboro",
+      name: " Hillsboro",
+    },
+    {
+      href: "/contact-locations/lancaster",
+      name: " Lancaster",
+    },
+    {
+      href: "/contact-locations/farmers-branch",
+      name: " Farmers Branch",
+    },
+    {
+      href: "/contact-locations/corsicana",
+      name: " Corsicana",
+    },
+    {
+      href: "/contact-locations/decatur",
+      name: " Decatur",
+    },
+    {
+      href: "/contact-locations/cleburne",
+      name: " Cleburne",
+    },
   ],
 };
 const DoctorDetails = () => {
@@ -45,7 +97,7 @@ const DoctorDetails = () => {
         pageTitle="Dr. Rao K. Ali M.D."
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Dr. Rao K. Ali"
+        activePageText="rao-k-ali"
         bgImage="/images/doctor.jpg"
       />
 
@@ -56,7 +108,7 @@ const DoctorDetails = () => {
               <div className="doctor-details-item doctor-details-left">
                 <img src="/images/doctors/doctor1.jpg" alt="Doctor" />
                 <div className="blog-details-item">
-                  <div className="blog-details-category ps-3">
+                  <div className="blog-details-category ps-5">
                     <h3>{conditionsWeTreat.heaging}</h3>
                     <ul>
                       {conditionsWeTreat.treatment.map((item, i) => {
@@ -107,7 +159,7 @@ const DoctorDetails = () => {
                       <Link href="/treatments/joint-injections">
                         Joint Injections
                       </Link>
-                      , Kyphoplasty, Discectomy,
+                      , Kyphoplasty, Discectomy,{" "}
                       <Link href="/treatments/spinal-cord-stimulation">
                         Spinal cord stimulator
                       </Link>{" "}
@@ -163,6 +215,20 @@ const DoctorDetails = () => {
                         </ul>
                       </div>
                     </div>
+                  </div>
+                </div>
+                <div className="blog-details-item">
+                  <div className="blog-details-tags">
+                    <h3>{locations.heaging}</h3>
+                    <ul>
+                      {locations.location.map((item, i) => {
+                        return (
+                          <li style={{ display: "" }} key={i}>
+                            <Link href={item.href}>{item.name}</Link>
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
                 </div>
               </div>

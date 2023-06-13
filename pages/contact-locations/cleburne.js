@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Cleburne"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="leburne"
+        activePageText="cleburne"
         bgImage="/images/location.jpg"
       />
 

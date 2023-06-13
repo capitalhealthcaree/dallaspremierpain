@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Disc Regenerative Therapy In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="disc regenerative therapy"
+        activePageText="disc-regenerative-therapy"
         bgImage="/images/page-banner2.jpg"
       />
 

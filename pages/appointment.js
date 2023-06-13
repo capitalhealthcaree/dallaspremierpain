@@ -13,7 +13,7 @@ const Appointment = () => {
         pageTitle="Appointment"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Appointment"
+        activePageText="appointment"
         bgImage="/images/appointment-bg-1.jpg"
       />
 

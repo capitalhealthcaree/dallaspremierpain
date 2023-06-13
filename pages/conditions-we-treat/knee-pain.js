@@ -31,7 +31,7 @@ const DoctorDetails = () => {
         pageTitle="Knee Pain Treatments In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Knee Pain"
+        activePageText="knee-pain"
         bgImage="/images/conditions-we-treat/knee-pain/knee.jpg"
       />
 

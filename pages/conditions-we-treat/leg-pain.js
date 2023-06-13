@@ -31,7 +31,7 @@ const DoctorDetails = () => {
         pageTitle="Leg Pain Treatments in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Leg Pain"
+        activePageText="leg-pain"
         bgImage="/images/conditions-we-treat/leg-pain/leg-treatment.jpg"
       />
 

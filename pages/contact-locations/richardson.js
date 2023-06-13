@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Richardson"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Richardson"
+        activePageText="richardson"
         bgImage="/images/location.jpg"
       />
 

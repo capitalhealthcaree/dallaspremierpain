@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Waxahachie"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Waxahachie"
+        activePageText="waxahachie"
         bgImage="/images/location.jpg"
       />
 
