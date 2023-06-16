@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Farmers Branch"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Farmers Branch"
+        activePageText="farmers-branch"
         bgImage="/images/location.jpg"
       />
 

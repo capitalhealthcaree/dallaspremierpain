@@ -31,7 +31,7 @@ const DoctorDetails = () => {
         pageTitle="Shoulder Pain Treatments In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Shoulder Pain"
+        activePageText="shoulder-pain"
         bgImage="/images/conditions-we-treat/shoulder-pain/shoulder-pain-dallas.jpg"
       />
 

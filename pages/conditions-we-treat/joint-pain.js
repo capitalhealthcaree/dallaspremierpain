@@ -31,7 +31,7 @@ const DoctorDetails = () => {
         pageTitle="Joint Pain Treatments In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="joint pain"
+        activePageText="joint-pain"
         bgImage="/images/conditions-we-treat/joint-pain/joint-treatment.jpg"
       />
 

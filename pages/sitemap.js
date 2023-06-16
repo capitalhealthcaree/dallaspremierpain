@@ -23,7 +23,7 @@ const locations = [
 const conditionsWeTreat = [
   { name: "Back Pain", location: "/conditions-we-treat/back-pain" },
   {
-    name: "car Accident Injury",
+    name: "Car Accident Injury",
     location: "/conditions-we-treat/car-accident-injury",
   },
   { name: "Foot Pain", location: "/conditions-we-treat/foot-pain" },
@@ -173,6 +173,10 @@ const blogs = [
     name: "You Should Be Aware Of Possible Causes Of Intercostal Neuralgia",
     location: "/blog/health-tips/possible-causes-of-intercostal-neuralgia",
   },
+  {
+    name: "How Pain Management Doctors Near Me Can Help Alleviate Chronic Pain",
+    location: "/blog/treatments/pain-management-doctors-near-me",
+  },
 ];
 const DoctorDetails = () => {
   return (
@@ -293,8 +297,13 @@ const DoctorDetails = () => {
           </dl>
           <dl>
             <dt>
-              <Link href="/interventional-pain-management">
-                Interventional Pain Management
+              <Link href="/sciatica-pain">
+              Arthritis Pain
+              </Link>
+            </dt>
+            <dt>
+              <Link href="/sciatica-pain">
+              Sciatica Pain
               </Link>
             </dt>
           </dl>
@@ -306,6 +315,13 @@ const DoctorDetails = () => {
           <dl>
             <dt>
               <Link href="/appointment">Appointment</Link>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <Link href="/interventional-pain-management">
+                Interventional Pain Management
+              </Link>
             </dt>
           </dl>
         </div>

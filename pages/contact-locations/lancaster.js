@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Lancaster"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Lancaster"
+        activePageText="lancaster"
         bgImage="/images/location.jpg"
       />
 

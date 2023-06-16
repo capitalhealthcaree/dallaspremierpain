@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Hillsboro"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Hillsboro"
+        activePageText="hillsboro"
         bgImage="/images/location.jpg"
       />
 

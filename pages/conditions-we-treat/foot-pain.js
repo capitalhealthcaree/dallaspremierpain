@@ -31,7 +31,7 @@ const DoctorDetails = () => {
         pageTitle="Foot Pain Treatments in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Foot Pain"
+        activePageText="foot-pain"
         bgImage="/images/conditions-we-treat/foot-pain/foot-pain-treatment.jpg"
       />
 

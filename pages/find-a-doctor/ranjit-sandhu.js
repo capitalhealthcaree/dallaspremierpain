@@ -43,7 +43,7 @@ const DoctorDetails = () => {
         pageTitle="DR. Ranjit Sandhu M.D."
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Ranjit Sandhu"
+        activePageText="ranjit-sandhu"
         bgImage="/images/doctor.jpg"
       />
 

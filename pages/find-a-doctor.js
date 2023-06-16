@@ -29,7 +29,7 @@ const Doctors = () => {
         pageTitle="Meet Our Qualified Doctors"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Doctors"
+        activePageText="doctors"
         bgImage="/images/doctors/doctor-bg.jpg"
       />
 

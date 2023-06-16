@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Neuroma Injection in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="neuroma injection"
+        activePageText="neuroma-injection"
         bgImage="/images/page-banner2.jpg"
       />
 

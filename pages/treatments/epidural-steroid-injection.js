@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Epidural Steroid Injection in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="epidural steroid injection"
+        activePageText="epidural-steroid-injection"
         bgImage="/images/page-banner2.jpg"
       />
 

@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Hip Pain Treatments In Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Hip Pain"
+        activePageText="hip-pain"
         bgImage="/images/conditions-we-treat/hip-pain/hip-pain-dallas.jpg"
       />
 

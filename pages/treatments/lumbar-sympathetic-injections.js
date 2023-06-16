@@ -30,7 +30,7 @@ const DoctorDetails = () => {
         pageTitle="Lumbar Sympathetic Injections in Dallas"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="lumbar sympathetic injections"
+        activePageText="lumbar-sympathetic-injections"
         bgImage="/images/page-banner2.jpg"
       />
 

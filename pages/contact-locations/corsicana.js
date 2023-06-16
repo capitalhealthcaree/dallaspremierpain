@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Corsicana"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Corsicana"
+        activePageText="corsicana"
         bgImage="/images/location.jpg"
       />
 

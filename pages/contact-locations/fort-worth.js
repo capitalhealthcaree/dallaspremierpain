@@ -14,7 +14,7 @@ const Contact = () => {
         pageTitle="Pain Management Services in Fort Worth"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Fort Worth"
+        activePageText="fort-worth"
         bgImage="/images/location.jpg"
       />
 

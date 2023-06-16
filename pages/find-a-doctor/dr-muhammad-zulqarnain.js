@@ -43,7 +43,7 @@ const DoctorDetails = () => {
         pageTitle="DR. MUHAMMAD ZULQARNAIN (DR. Z) M.D."
         homePageUrl="/"
         homePageText="Home"
-        activePageText="DR. Z"
+        activePageText="dr-muhammad-zulqarnain"
         bgImage="/images/doctor.jpg"
       />
 
