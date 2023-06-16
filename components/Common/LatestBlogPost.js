@@ -31,7 +31,7 @@ const LatestBlogPost = () => {
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={`/blog${item.slug}`}>
-                        <img loading="lazy" src={item.image} alt={item.category} />
+                        <img src={item.image} alt={item.category} />
                       </Link>
                     </div>
                     <div className="blog-bottom">

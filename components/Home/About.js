@@ -10,13 +10,13 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-item">
                 <div className="about-left">
-                  <img loading="lazy" src="/images/about.webp" alt="About" />
+                  <img src="/images/about.webp" alt="About" />
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
               <div className="about-item about-right">
-                <img loading="lazy" src="/images/about-shape1.webp" alt="About" />
+                <img src="/images/about-shape1.webp" alt="About" />
 
                 <h2>Multidisciplinary Pain Management in Dallas</h2>
                 <p>

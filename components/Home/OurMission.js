@@ -21,7 +21,7 @@ const OurMission = () => {
                 </p>
                 <ul>
                   <li>
-                    <img loading="lazy" src="/images/our-mission/tick.png" alt="Spread" />
+                    <img src="/images/our-mission/tick.png" alt="Spread" />
                     <p>
                       Premier Pain Centers operates in the most efficient way
                       possible to provide a safe environment and deliver the
@@ -47,7 +47,7 @@ const OurMission = () => {
                   </li>
 
                   <li>
-                    <img loading="lazy" src="/images/our-mission/tick.png" alt="Spread" />
+                    <img src="/images/our-mission/tick.png" alt="Spread" />
                     <p>
                       We at Premier Pain Centers strive to utilize advanced
                       technology and remain at the forefront of medical
@@ -58,7 +58,7 @@ const OurMission = () => {
                     </p>
                   </li>
                   <li>
-                    <img loading="lazy" src="/images/our-mission/tick.png" alt="Spread" />
+                    <img src="/images/our-mission/tick.png" alt="Spread" />
                     <p>
                       Our value proposition lies in our ability to offer timely,
                       same-day outpatient surgery procedures—such as M6
@@ -68,7 +68,7 @@ const OurMission = () => {
                     </p>
                   </li>
                   <li>
-                    <img loading="lazy" src="/images/our-mission/tick.png" alt="Spread" />
+                    <img src="/images/our-mission/tick.png" alt="Spread" />
                     <p>
                       We offer expert diagnosis and treatment for pain and
                       dysfunction caused by deformity, degenerative disc
@@ -81,7 +81,7 @@ const OurMission = () => {
 
             <div className="col-lg-6">
               <div className="spread-img">
-                <img loading="lazy" src="/images/our-mission/pain-body.webp" alt="Spread" />
+                <img src="/images/our-mission/pain-body.webp" alt="Spread" />
               </div>
             </div>
           </div>

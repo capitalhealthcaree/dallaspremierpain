@@ -17,7 +17,7 @@ const AppointmentFormTwo = () => {
 
             <div className="col-lg-5 pr-0">
               <div className="speciality-item speciality-right speciality-right-two speciality-right-three">
-                <img loading="lazy" src="/images/doctors/appointment.jpg" alt="Doctor" />
+                <img src="/images/doctors/appointment.jpg" alt="Doctor" />
               </div>
             </div>
           </div>

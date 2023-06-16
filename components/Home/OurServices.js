@@ -78,7 +78,7 @@ const OurServices = () => {
                   <div className="blog-item">
                     <div className="blog-top">
                       <Link href={item.href}>
-                        <img loading="lazy" src={item.imgSrc} alt={item.name} />
+                        <img src={item.imgSrc} alt={item.name} />
                       </Link>
                     </div>
                     <div className="blog-bottom">

@@ -40,7 +40,7 @@ const NewsSidebar = () => {
             {list.map((item, i) => {
               return (
                 <li key={i}>
-                  <img loading="lazy" src={item.image} alt={item.seoTitle[0]} />
+                  <img src={item.image} alt={item.seoTitle[0]} />
                   <Link href={`/news/${item.slug}`}>{item.seoTitle[0]}</Link>
                   <ul>
                     <li>

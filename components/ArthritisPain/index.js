@@ -6,7 +6,7 @@ const ServiceDetailsContent = () => {
       <div className="service-details-area">
         <div className="container">
           <div className="services-details-img">
-            <img loading="lazy" src="/images/arthritis-pain.png" alt="arthritis pain" />
+            <img src="/images/arthritis-pain.png" alt="arthritis pain" />
 
             <h2>Arthritis Pain: Symptoms, Causes, Types & Treatment</h2>
             <p>
