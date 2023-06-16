@@ -42,7 +42,7 @@ const outServices = [
     href: "/conditions-we-treat/neck-pain",
   },
   {
-    imgSrc: "/images/our-services/knee-pain.jpg",
+    imgSrc: "/images/our-services/knee-pain.webp",
     name: "Knee Pain",
     href: "/conditions-we-treat/knee-pain",
   },
@@ -52,7 +52,7 @@ const outServices = [
     href: "/conditions-we-treat/wrist-pain",
   },
   {
-    imgSrc: "/images/our-services/car-accident-injury.jpg",
+    imgSrc: "/images/our-services/car-accident-injury.webp",
     name: "Car Accident Injury",
     href: "/conditions-we-treat/car-accident-injury",
   },

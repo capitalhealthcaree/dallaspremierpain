@@ -81,7 +81,7 @@ const OurMission = () => {
 
             <div className="col-lg-6">
               <div className="spread-img">
-                <img src="/images/our-mission/pain-body.jpg" alt="Spread" />
+                <img src="/images/our-mission/pain-body.webp" alt="Spread" />
               </div>
             </div>
           </div>

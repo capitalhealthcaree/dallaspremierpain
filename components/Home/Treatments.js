@@ -67,7 +67,7 @@ const SymptomsCovid19 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="symptoms-img">
-                <img src="/images/symptoms.jpg" alt="Symptoms" />
+                <img src="/images/symptoms.webp" alt="Symptoms" />
               </div>
             </div>
 

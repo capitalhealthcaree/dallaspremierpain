@@ -6,14 +6,14 @@ const MainBanner = () => {
     <>
       <div
         className="slider-item slider-item-two"
-        style={{ backgroundImage: `url(/images/home-slider-bg.jpg)` }}
+        style={{ backgroundImage: `url(/images/home-slider-bg.webp)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
               <div className="slider-text">
                 <div className="slider-shape">
-                  <img src="/images/circle-image.png" alt="Shape" />
+                  <img src="/images/circle-image.webp" alt="Shape" />
                 </div>
 
                 <h1>Relieving Pain Throughout Dallas</h1>
