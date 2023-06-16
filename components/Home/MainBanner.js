@@ -6,7 +6,7 @@ const MainBanner = () => {
     <>
       <div
         className="slider-item slider-item-two"
-        style={{ backgroundImage: `url(/images/home-slider-bg.webp)` }}
+        style={{ backgroundImage: `url(/images/home-slider-bg.avif)` }}
       >
         <div className="d-table">
           <div className="d-table-cell">
