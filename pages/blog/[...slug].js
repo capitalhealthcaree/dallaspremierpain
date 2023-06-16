@@ -43,7 +43,7 @@ const BlogDetails = ({ items }) => {
             <div className="col-lg-8">
               <div className="blog-details-item">
                 <div className="blog-details-img">
-                  <img src={items?.image} alt={items?.category} />
+                  <img loading="lazy" src={items?.image} alt={items?.category} />
                   <h2>{items.seoTitle[0]}</h2>
                 </div>
 

@@ -42,14 +42,14 @@ const About = () => {
             <div className="col-lg-6">
               <div className="about-item">
                 <div className="about-left">
-                  <img src="/images/about.webp" alt="About" />
+                  <img loading="lazy" src="/images/about.webp" alt="About" />
                 </div>
               </div>
             </div>
 
             <div className="col-lg-6">
               <div className="about-item about-right">
-                <img src="/images/about-shape1.webp" alt="About" />
+                <img loading="lazy" src="/images/about-shape1.webp" alt="About" />
                 <h2>About Our Hospital</h2>
                 <p>
                   In Fort Worth, Lancaster, Hillsboro, and surrounding areas of

@@ -52,7 +52,7 @@ const DoctorDetails = () => {
           <div className="row">
             <div className="col-lg-5">
               <div className="doctor-details-item doctor-details-left">
-                <img src="/images/doctors/doctor2.jpg" alt="Doctor" />
+                <img loading="lazy" src="/images/doctors/doctor2.jpg" alt="Doctor" />
                 <div className="blog-details-item">
                   <div className="blog-details-category ps-3">
                     <h3>{conditionsWeTreat.heaging}</h3>

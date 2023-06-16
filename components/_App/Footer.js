@@ -15,7 +15,7 @@ const Footer = () => {
                   style={{ display: "flex", flexDirection: "column" }}
                 >
                   <Link href="/" className="navbar-brand">
-                    <img src="/images/logo-footer.png" alt="logo" />
+                    <img loading="lazy" src="/images/logo-footer.png" alt="logo" />
                   </Link>
                   <p className="pt-3" style={{ color: "white" }}>
                     At Premier Pain Centers, we offer top quality pain

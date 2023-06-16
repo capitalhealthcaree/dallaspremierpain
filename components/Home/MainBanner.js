@@ -13,7 +13,7 @@ const MainBanner = () => {
             <div className="container">
               <div className="slider-text">
                 <div className="slider-shape">
-                  <img src="/images/circle-image.webp" alt="Shape" />
+                  <img loading="lazy" src="/images/circle-image.webp" alt="Shape" />
                 </div>
 
                 <h1>Relieving Pain Throughout Dallas</h1>
