@@ -6,9 +6,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="/images/favicon.ico" />
+        <link rel="icon" href="https://dallaspremierpain.com/favicon.ico" />
         <title>Pain Management Specialists in Dallas</title>
-
         <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
