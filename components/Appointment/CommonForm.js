@@ -14,8 +14,8 @@ const INITIAL_STATE = {
 };
 const alertContent = () => {
   MySwal.fire({
-    title: "Appointment Confirmed!",
-    text: "Your appointment has been successfully booked.",
+    title: "Appointment Booked!",
+    // text: "Your appointment has been successfully booked.",
     icon: "success",
     timer: 5000,
     timerProgressBar: true,
