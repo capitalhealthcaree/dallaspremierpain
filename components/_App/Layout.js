@@ -8,10 +8,12 @@ const Layout = ({ children }) => {
       <Head>
         <link rel="icon" href="https://dallaspremierpain.com/favicon.ico" />
         <title>Pain Management Specialists in Dallas</title>
-        <meta
+        {/* <meta
           name="robots"
           content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
-        />
+        /> */}
+        <meta name="robots" content="noindex" />
+
         <meta
           name="description"
           content="At Dallas Premier Pain, we offer top quality pain management using some of the least invasive, most effective pain procedures possible. Schedule an Appointment!"
